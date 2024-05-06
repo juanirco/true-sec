@@ -1,0 +1,8 @@
+node_modules
+vendor
+.DS_Store
+includes/.env
+package-lock.json
+composer.lock
+gulpfile.js
+src

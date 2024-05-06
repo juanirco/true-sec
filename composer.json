@@ -1,0 +1,25 @@
+{
+    "name": "juan/rslcr",
+    "description": "proyecto real para empresa de electromecanica en php mvc",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Apple\\Rsccr\\": "src/",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "juanirco",
+            "email": "juanirco@hotmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "phpmailer/phpmailer": "^6.9",
+        "intervention/image": "^3.6"
+    }
+}
