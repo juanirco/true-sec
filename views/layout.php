@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="<?php echo $title ?? '';?> | RSL, líderes de electromecánica en Costa Rica. Expertos en redes eléctricas, telecomunicaciones y más. ¡Contáctanos hoy! #Electromecanica #CR">
     <title>RSL <?php echo $separator = ' | ' . $title ?? ''; ?></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
