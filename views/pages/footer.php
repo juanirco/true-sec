@@ -18,7 +18,7 @@
                 <p>Telefono</p>
                 <p>+506 4702-0720</p>
                 <p>Dirección</p>
-                <p>San José, Santa Ana, Alto de las Palomas, <br>Plaza Panorama segundo piso Local #11</p>
+                <p>San José, Santa Ana, Alto de las Palomas, <br>Plaza Panorama segundo piso Local #6</p>
             </div>
         </div>
         <div class="footer-socialMedia">
