@@ -33,7 +33,7 @@ class ContactEmail {
             $email->Password = $_ENV['EMAIL_PASS'];
             $email->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;  
         
-            $email->setFrom($this->email);
+            $email->setFrom('juanirco@hotmail.com');
             $email->addAddress('info@rslcr.com');
             $email->Subject = 'Nuevo mensaje de: ' . $this->name;
             //Content
@@ -73,7 +73,7 @@ class ContactEmail {
 
             //Recipients
             $email->setFrom('info@rslcr.com');
-            $email->addAddress($this->email);
+            $email->addAddress('juanirco@hotmail.com');
             $email->Subject = 'Recibimos tu mensaje';
             //Content
             $email->isHTML(true);                                  //Set email format to HTML
