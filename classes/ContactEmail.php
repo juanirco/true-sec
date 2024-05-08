@@ -33,7 +33,7 @@ class ContactEmail {
             $email->Port = $_ENV['EMAIL_PORT'];
             $email->Username = $_ENV['EMAIL_USER'];
             $email->Password = $_ENV['EMAIL_PASS'];
-            $email->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
+            $email->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
         
             $email->setFrom($this->email);
             $email->addAddress('info@rslcr.com');
@@ -72,7 +72,7 @@ class ContactEmail {
             $email->Port = $_ENV['EMAIL_PORT'];
             $email->Username = $_ENV['EMAIL_USER'];
             $email->Password = $_ENV['EMAIL_PASS'];
-            $email->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
+            $email->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
 
             //Recipients
             $email->setFrom('info@rslcr.com');
@@ -114,7 +114,7 @@ class ContactEmail {
             $email->Port = $_ENV['EMAIL_PORT'];
             $email->Username = $_ENV['EMAIL_USER'];
             $email->Password = $_ENV['EMAIL_PASS'];
-            $email->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
+            $email->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     
             //Recipients
             $email->setFrom('info@rslcr.com');
