@@ -3,6 +3,7 @@
 namespace Classes;
 
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 class ContactEmail {
@@ -25,13 +26,14 @@ class ContactEmail {
         $email = new PHPMailer();
         try {
             //Server settings
+            $email->SMTPDebug=0;
             $email->isSMTP();                                            //Send using SMTP
             $email->Host = $_ENV['EMAIL_HOST'];
             $email->SMTPAuth = true;
             $email->Port = $_ENV['EMAIL_PORT'];
             $email->Username = $_ENV['EMAIL_USER'];
             $email->Password = $_ENV['EMAIL_PASS'];
-            $email->SMTPSecure = 'tls';  
+            $email->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;   
         
             $email->setFrom('juanirco@hotmail.com');
             $email->addAddress('info@rslcr.com');
@@ -63,13 +65,14 @@ class ContactEmail {
         $email = new PHPMailer();
         try {
             //Server settings
+            $email->SMTPDebug=0;
             $email->isSMTP();                                            //Send using SMTP
             $email->Host = $_ENV['EMAIL_HOST'];
             $email->SMTPAuth = true;
             $email->Port = $_ENV['EMAIL_PORT'];
             $email->Username = $_ENV['EMAIL_USER'];
             $email->Password = $_ENV['EMAIL_PASS'];
-            $email->SMTPSecure = 'tls';  
+            $email->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;   
 
             //Recipients
             $email->setFrom('info@rslcr.com');
@@ -104,13 +107,14 @@ class ContactEmail {
         $email = new PHPMailer();
         try {
             //Server settings
+            $email->SMTPDebug=0;
             $email->isSMTP();                                            //Send using SMTP
             $email->Host = $_ENV['EMAIL_HOST'];
             $email->SMTPAuth = true;
             $email->Port = $_ENV['EMAIL_PORT'];
             $email->Username = $_ENV['EMAIL_USER'];
             $email->Password = $_ENV['EMAIL_PASS'];
-            $email->SMTPSecure = 'tls';  
+            $email->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;   
     
             //Recipients
             $email->setFrom('info@rslcr.com');
