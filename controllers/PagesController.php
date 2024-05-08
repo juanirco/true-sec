@@ -109,7 +109,7 @@ class PagesController {
             $contact_email->automatic_response();
 
             $alerts = User::setAlert('success', 'Mensaje enviado');
-            header('refresh: 1.5; /contacto');
+            // header('refresh: 1.5; /contacto');
         }
         $alerts = User::getAlerts();
         $router->render('pages/contacto',[
@@ -125,7 +125,7 @@ class PagesController {
             $contact_email->automatic_response_en();
 
             $alerts = User::setAlert('success', 'Message sent');
-            header('refresh: 1.5; /contact');
+            // header('refresh: 1.5; /contact');
         }
         $alerts = User::getAlerts();
         $router->render('pages/contact',[
