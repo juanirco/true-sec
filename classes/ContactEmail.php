@@ -26,16 +26,16 @@ class ContactEmail {
         $email = new PHPMailer();
         try {
             //Server settings
-            $email->SMTPDebug=0;
+            $email->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
             $email->isSMTP();                                            //Send using SMTP
             $email->Host = $_ENV['EMAIL_HOST'];
             $email->SMTPAuth = true;
             $email->Port = $_ENV['EMAIL_PORT'];
             $email->Username = $_ENV['EMAIL_USER'];
             $email->Password = $_ENV['EMAIL_PASS'];
-            $email->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;   
+            $email->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
         
-            $email->setFrom('juanirco@hotmail.com');
+            $email->setFrom($this->email);
             $email->addAddress('info@rslcr.com');
             $email->Subject = 'Nuevo mensaje de: ' . $this->name;
             //Content
@@ -65,18 +65,18 @@ class ContactEmail {
         $email = new PHPMailer();
         try {
             //Server settings
-            $email->SMTPDebug=0;
+            $email->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
             $email->isSMTP();                                            //Send using SMTP
             $email->Host = $_ENV['EMAIL_HOST'];
             $email->SMTPAuth = true;
             $email->Port = $_ENV['EMAIL_PORT'];
             $email->Username = $_ENV['EMAIL_USER'];
             $email->Password = $_ENV['EMAIL_PASS'];
-            $email->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;   
+            $email->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
 
             //Recipients
             $email->setFrom('info@rslcr.com');
-            $email->addAddress('juanirco@hotmail.com');
+            $email->addAddress($this->email);
             $email->Subject = 'Recibimos tu mensaje';
             //Content
             $email->isHTML(true);                                  //Set email format to HTML
@@ -107,14 +107,14 @@ class ContactEmail {
         $email = new PHPMailer();
         try {
             //Server settings
-            $email->SMTPDebug=0;
+            $email->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
             $email->isSMTP();                                            //Send using SMTP
             $email->Host = $_ENV['EMAIL_HOST'];
             $email->SMTPAuth = true;
             $email->Port = $_ENV['EMAIL_PORT'];
             $email->Username = $_ENV['EMAIL_USER'];
             $email->Password = $_ENV['EMAIL_PASS'];
-            $email->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;   
+            $email->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     
             //Recipients
             $email->setFrom('info@rslcr.com');
