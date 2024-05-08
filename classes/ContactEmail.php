@@ -28,11 +28,11 @@ class ContactEmail {
             //Server settings
             $email->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
             $email->isSMTP();                                            //Send using SMTP
-            $email->Host = $_ENV['EMAIL_HOST'];
+            $email->Host = 'smtp.gmail.com';
             $email->SMTPAuth = true;
-            $email->Port = $_ENV['EMAIL_PORT'];
-            $email->Username = $_ENV['EMAIL_USER'];
-            $email->Password = $_ENV['EMAIL_PASS'];
+            $email->Port = 465;
+            $email->Username = 'Info@rslcr.com';
+            $email->Password = 'Rsl2023mam&';
             $email->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
         
             $email->setFrom($this->email);
@@ -67,11 +67,11 @@ class ContactEmail {
             //Server settings
             $email->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
             $email->isSMTP();                                            //Send using SMTP
-            $email->Host = $_ENV['EMAIL_HOST'];
+            $email->Host = 'smtp.gmail.com';
             $email->SMTPAuth = true;
-            $email->Port = $_ENV['EMAIL_PORT'];
-            $email->Username = $_ENV['EMAIL_USER'];
-            $email->Password = $_ENV['EMAIL_PASS'];
+            $email->Port = 465;
+            $email->Username = 'Info@rslcr.com';
+            $email->Password = 'Rsl2023mam&';
             $email->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
 
             //Recipients
@@ -109,11 +109,11 @@ class ContactEmail {
             //Server settings
             $email->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
             $email->isSMTP();                                            //Send using SMTP
-            $email->Host = $_ENV['EMAIL_HOST'];
+            $email->Host = 'smtp.gmail.com';
             $email->SMTPAuth = true;
-            $email->Port = $_ENV['EMAIL_PORT'];
-            $email->Username = $_ENV['EMAIL_USER'];
-            $email->Password = $_ENV['EMAIL_PASS'];
+            $email->Port = 465;
+            $email->Username = 'Info@rslcr.com';
+            $email->Password = 'Rsl2023mam&';
             $email->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     
             //Recipients
