@@ -106,6 +106,7 @@ class ProjectsController {
                         $photo->save();
                     }
                     Project::setAlert('success', 'Proyecto creado correctamente');
+                    require_once __DIR__ . '/../public/sitemap_generator.php';
                     header('refresh:2; /panel');
                 }
             }
@@ -193,6 +194,7 @@ class ProjectsController {
             $project->delete();
             header('Content-Type: application/json');
             echo json_encode(['success' => true, 'message' => 'El proyecto ha sido eliminado correctamente']);
+            require_once __DIR__ . '/../public/sitemap_generator.php';
             exit;
         }
     }
