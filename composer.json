@@ -1,6 +1,6 @@
 {
-    "name": "juan/rslcr",
-    "description": "proyecto real para empresa de electromecanica en php mvc",
+    "name": "juan/true-sec",
+    "description": "proyecto real para true-sec en php mvc, empresa de ciberseguridad",
     "type": "project",
     "autoload": {
         "psr-4": {
