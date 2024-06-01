@@ -8,6 +8,7 @@
     </main>
 
     <section class="contact_section">
+        <?php include_once __DIR__ . '/../templates/alerts.php';?>
         <h2 class="contact_title">Contact Us!</h2>
         <p>This is the place where we answer any questions or inquiries you may have. Just leave us your details and inquiry, and you will have a response soon.</p>
             <form action="/contacto" class="form" method="POST">
