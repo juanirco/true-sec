@@ -3,7 +3,6 @@
     <main class="hero">
         <div class="hero_content">
             <h1>TRUE SEC</h1>
-            <h3>Your roadmap to cybersecurity evolution</h3>
             <p>Real-life cybersecurity</p>
         </div>
     </main>

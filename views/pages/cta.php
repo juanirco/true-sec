@@ -1,6 +1,6 @@
 <div class="cta">
     <div class="cta_div">
-        <p>Conversa con nosotros para comenzar a brindar seguridad de extremo a extremo en tu empresa</p>
+        <p>TRUE SEC puede apoyar a implementar soluciones de clase mundial para la ciberseguridad de su organización</p>
     </div>
     <div class="cta_button">
         <div class="button_div">
