@@ -32,7 +32,7 @@
             <p>|</p>
             <a href="/privacidad">Política de privacidad</a>
         </div>
-        <p class="copyright"><?php echo date('Y')?> &copy; Todos los derechos reservados de Truesec | Creado por <a href="https://www.inbotscr.com">Inbotscr</a></p>
+        <p class="copyright"><?php echo date('Y')?> &copy; Todos los derechos reservados de True sec | Creado por <a href="https://www.inbotscr.com">Inbotscr</a></p>
     </div>
 </footer>
 

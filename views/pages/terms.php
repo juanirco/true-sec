@@ -10,10 +10,10 @@
         <p>You agree to use this website only for lawful purposes and in accordance with these terms and conditions. You agree not to use this website in any way that may cause damage, harm, or interference with the availability or accessibility of the website; or in any way that is unlawful, fraudulent, or harmful.</p>
     
         <h3>Intellectual Property</h3>
-        <p>This website and its content are the property of Truesec and are protected by copyright laws and other intellectual property laws. You agree not to copy, modify, distribute, transmit, display, perform, reproduce, publish, license, create derivative works, transfer, or sell any information, software, products, or services obtained from this website.</p>
+        <p>This website and its content are the property of True sec and are protected by copyright laws and other intellectual property laws. You agree not to copy, modify, distribute, transmit, display, perform, reproduce, publish, license, create derivative works, transfer, or sell any information, software, products, or services obtained from this website.</p>
     
         <h3>Limitation of Liability</h3>
-        <p>In no event shall Truesec, nor any of its directors, employees, or agents, be liable for indirect, special, incidental, or consequential damages arising out of the use of this website or the inability to use it, even if advised of the possibility of such damages.</p>
+        <p>In no event shall True sec, nor any of its directors, employees, or agents, be liable for indirect, special, incidental, or consequential damages arising out of the use of this website or the inability to use it, even if advised of the possibility of such damages.</p>
     
         <h3>Modifications</h3>
         <p>We reserve the right to modify these terms and conditions at any time. By using this website, you agree to be bound by the most current version of these terms and conditions.</p>

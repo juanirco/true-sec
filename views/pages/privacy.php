@@ -4,7 +4,7 @@
         <h1>Privacy Policy</h1>
     
         <h3>Information Collection</h3>
-        <p>At Truesec, we value the privacy of our customers and online visitors. Therefore, we only collect personal information when it is voluntarily provided, such as through contact forms or email inquiries. The information we collect may include names, email addresses, phone numbers, and other information relevant to providing our services and responding to inquiries.</p>
+        <p>At True sec, we value the privacy of our customers and online visitors. Therefore, we only collect personal information when it is voluntarily provided, such as through contact forms or email inquiries. The information we collect may include names, email addresses, phone numbers, and other information relevant to providing our services and responding to inquiries.</p>
     
         <h3>Use of Information</h3>
         <p>The personal information collected is used solely for the purpose of providing our services, responding to inquiries, processing requests, and improving the user experience on our website. We do not share this information with third parties except when necessary to fulfill services requested by the user or required by law.</p>
