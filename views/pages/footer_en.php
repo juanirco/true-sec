@@ -13,7 +13,7 @@
             <h3>Contact</h3>
             <div class="info_contact">
                 <p>comercial@true-sec.com</p>
-                <p>+506...</p>
+                <p>+506 4070 0688</p>
                 <p>Curridabat SJ, Costa Rica</p>
             </div>
         </div>
@@ -21,7 +21,7 @@
             <h3>Social Media</h3>
             <ul class="links-list">
                 <li><a href="https://www.linkedin.com/company/true-sec-security-services/">LinkedIn</a></li>
-                <li><a href="https://wa.me/+506">WhatsApp</a></li>
+                <li><a href="https://wa.me/+50640700688">WhatsApp</a></li>
             </ul>
         </div>
     </div>
