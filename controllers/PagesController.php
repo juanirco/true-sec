@@ -65,7 +65,7 @@ class PagesController {
         // place where view can be found and the code inside the brackets is what we pass to the view
         if($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Verificar reCAPTCHA
-            $recaptcha_secret = '6LcmF_EpAAAAAHSBjx4Ph7JQA04FLSykZc2DNyzc';
+            $recaptcha_secret = '6Lebs_ApAAAAAM_Rpvztc9j8Vvd0XRy8eZNmv7Kp';
             $recaptcha_response = $_POST['g-recaptcha-response'];
             $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$recaptcha_secret&response=$recaptcha_response");
             $response_keys = json_decode($response, true);
@@ -94,7 +94,7 @@ class PagesController {
         // place where view can be found and the code inside the brackets is what we pass to the view
         if($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Verificar reCAPTCHA
-            $recaptcha_secret = '6LcmF_EpAAAAAHSBjx4Ph7JQA04FLSykZc2DNyzc';
+            $recaptcha_secret = '6Lebs_ApAAAAAM_Rpvztc9j8Vvd0XRy8eZNmv7Kp';
             $recaptcha_response = $_POST['g-recaptcha-response'];
             $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$recaptcha_secret&response=$recaptcha_response");
             $response_keys = json_decode($response, true);
