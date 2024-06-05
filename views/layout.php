@@ -17,6 +17,15 @@
     <link rel="stylesheet" href="build/css/app.css">
     <!-- reCAPTCHA Script -->
     <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-51M7DXG35E"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-51M7DXG35E');
+    </script>
 </head>
 <body>
 <div class="container_background">
