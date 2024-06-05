@@ -30,7 +30,8 @@
                 <label for="message">Mensaje:</label>
                     <textarea name="message" id="" cols="30" rows="10" placeholder="Tu Mensaje" required></textarea>
                 </div>
-
+            <!-- reCAPTCHA Widget -->
+                <div class="g-recaptcha" data-sitekey="6LcmF_EpAAAAAEICz3Ku5KkH42hfrydJd2OeZlNw"></div>
                 <input type="submit" class="button_trnsp" value="Enviar Mensaje">
             </form>
     </section>

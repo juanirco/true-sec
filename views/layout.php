@@ -16,7 +16,7 @@
     </noscript>
     <link rel="stylesheet" href="build/css/app.css">
     <!-- reCAPTCHA Script -->
-    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-51M7DXG35E"></script>
     <script>
