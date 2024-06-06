@@ -23,7 +23,7 @@ $router->post('/contact', [PagesController::class, 'contact']);
 $router->get('/privacidad', [PagesController::class, 'privacidad']);
 $router->get('/privacy', [PagesController::class, 'privacy']);
 $router->get('/condiciones', [PagesController::class, 'condiciones']);
-$router->get('/conditions', [PagesController::class, 'terms']);
+$router->get('/terms', [PagesController::class, 'terms']);
 
 
 
