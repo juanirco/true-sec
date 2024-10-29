@@ -31,6 +31,7 @@
 <div class="container_background">
     <?php echo $content; ?>
     <?php echo $script ?? ''; ?>
+    <?php echo $script2 ?? ''; ?>
 </div>
 
 </body>
