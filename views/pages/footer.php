@@ -38,5 +38,5 @@
 
 <?php 
     $script = '<script src="build/js/app.js"></script>';
-    $script2 = '<script src="https://app.inbotscr.com/webchat/plugin.js?v=5"></script><script>ktt10.setup({id:"dICDTxAnvkDkpllLX",accountId:"1222873",color:"#006dff"})</script>';
+    $script2 = '<script src="https://app.inbotscr.com/webchat/plugin.js?v=5"></script><script>ktt10.setup({id:"dICDTxAnvkDkpllLX",accountId:"1222873",color:"#98ABC5"})</script>';
 ?>
