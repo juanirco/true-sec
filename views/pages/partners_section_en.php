@@ -32,9 +32,6 @@
             <img src="../../build/img/microsoft_logo.svg" alt="microsoft logo" class="service_icon">
         </div>
         <div class="partner">
-            <img src="../../build/img/crowdstrike_logo.svg" alt="crowdstrike logo" class="service_icon">
-        </div>
-        <div class="partner">
             <img src="../../build/img/hornetsecurity_logo.svg" alt="hornetsecurity logo" class="service_icon">
         </div>
         <div class="partner">
