@@ -11,24 +11,24 @@
         <?php include_once __DIR__ . '/../templates/alerts.php';?>
         <h2 class="contact_title">¡Contáctanos!</h2>
         <p>Este es el sitio donde te respondemos cualquier duda o consulta, solo dejanos tus datos y la consulta y muy pronto tendrás una respuesta.</p>
-            <form action="/contacto" class="form" method="POST">
+            <form action="/contacto" class="form" method="POST" disable>
                 <div class="field">
                     <label for="name">Nombre:</label>
-                    <input type="text" name="name" id="name" placeholder="Tu nombre" required>
+                    <input type="text" name="name" id="name" placeholder="Tu nombre" required disable>
                 </div>
         
                 <div class="field">
                     <label for="lastname">Apellido:</label>
-                    <input type="text" name="lastname" id="lastname" placeholder="Tu apellido">
+                    <input type="text" name="lastname" id="lastname" placeholder="Tu apellido" disable>
                 </div>
                 <div class="field">
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" placeholder="Tu email" required>
+                    <input type="email" name="email" id="email" placeholder="Tu email" required disable>
                 </div>
 
                 <div class="field">
                 <label for="message">Mensaje:</label>
-                    <textarea name="message" id="" cols="30" rows="10" placeholder="Tu Mensaje" required></textarea>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Tu Mensaje" required disable></textarea>
                 </div>
             <!-- reCAPTCHA Widget -->
                 <!-- <div class="g-recaptcha" data-sitekey="6Lebs_ApAAAAAFbEPbCg6gLia_r1TycAPhgSOqyb"></div> -->
