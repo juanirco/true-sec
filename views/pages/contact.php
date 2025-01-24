@@ -31,8 +31,8 @@
                     <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
                 </div>
             <!-- reCAPTCHA Widget -->
-                <div class="g-recaptcha" data-sitekey="6Lebs_ApAAAAAFbEPbCg6gLia_r1TycAPhgSOqyb"></div>
-                <input type="submit" class="button_trnsp" value="Send Message">
+                <!-- <div class="g-recaptcha" data-sitekey="6Lebs_ApAAAAAFbEPbCg6gLia_r1TycAPhgSOqyb"></div>
+                <input type="submit" class="button_trnsp" value="Send Message"> -->
             </form>
     </section>
 </div>
