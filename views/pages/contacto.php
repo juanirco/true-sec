@@ -14,7 +14,7 @@
 
         <?php 
         // Variable para habilitar/deshabilitar el formulario
-        $form_enabled = false; 
+        $form_enabled = true; 
 
         if ($form_enabled): ?>
             <form action="/contacto" class="form" method="POST">
@@ -36,6 +36,13 @@
                     <label for="message">Mensaje:</label>
                     <textarea name="message" id="" cols="30" rows="10" placeholder="Tu Mensaje" required></textarea>
                 </div>
+
+                <!-- Campo honeypot oculto -->
+                <div style="display: none;">
+                    <label for="honeypot">No llenar este campo:</label>
+                    <input type="text" name="honeypot" id="honeypot">
+                </div>
+
                 <!-- reCAPTCHA Widget -->
                 <div class="g-recaptcha" data-sitekey="6Lebs_ApAAAAAFbEPbCg6gLia_r1TycAPhgSOqyb"></div>
                 <input type="submit" class="button_trnsp" value="Enviar Mensaje">
@@ -48,3 +55,15 @@
     </section>
 </div>
 <?php include_once __DIR__ . '/footer.php';?>
+
+<?php
+// Validación en el servidor
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (!empty($_POST['honeypot'])) {
+        die('Detectado como spam.');
+    }
+
+    // Procesa el formulario normalmente si el honeypot está vacío
+    // Aquí va tu lógica de procesamiento de datos
+}
+?>
