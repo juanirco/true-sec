@@ -10,30 +10,41 @@
     <section class="contact_section">
         <?php include_once __DIR__ . '/../templates/alerts.php';?>
         <h2 class="contact_title">¡Contáctanos!</h2>
-        <p>Este es el sitio donde te respondemos cualquier duda o consulta, solo dejanos tus datos y la consulta y muy pronto tendrás una respuesta.</p>
-            <form action="/contacto" class="form" method="POST" disable>
+        <p>Este es el sitio donde te respondemos cualquier duda o consulta, solo déjanos tus datos y la consulta y muy pronto tendrás una respuesta.</p>
+
+        <?php 
+        // Variable para habilitar/deshabilitar el formulario
+        $form_enabled = false; 
+
+        if ($form_enabled): ?>
+            <form action="/contacto" class="form" method="POST">
                 <div class="field">
                     <label for="name">Nombre:</label>
-                    <input type="text" name="name" id="name" placeholder="Tu nombre" required disable>
+                    <input type="text" name="name" id="name" placeholder="Tu nombre" required>
                 </div>
         
                 <div class="field">
                     <label for="lastname">Apellido:</label>
-                    <input type="text" name="lastname" id="lastname" placeholder="Tu apellido" disable>
+                    <input type="text" name="lastname" id="lastname" placeholder="Tu apellido">
                 </div>
                 <div class="field">
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" placeholder="Tu email" required disable>
+                    <input type="email" name="email" id="email" placeholder="Tu email" required>
                 </div>
 
                 <div class="field">
-                <label for="message">Mensaje:</label>
-                    <textarea name="message" id="" cols="30" rows="10" placeholder="Tu Mensaje" required disable></textarea>
+                    <label for="message">Mensaje:</label>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Tu Mensaje" required></textarea>
                 </div>
-            <!-- reCAPTCHA Widget -->
-                <!-- <div class="g-recaptcha" data-sitekey="6Lebs_ApAAAAAFbEPbCg6gLia_r1TycAPhgSOqyb"></div> -->
-                <!-- <input type="submit" class="button_trnsp" value="Enviar Mensaje"> -->
+                <!-- reCAPTCHA Widget -->
+                <div class="g-recaptcha" data-sitekey="6Lebs_ApAAAAAFbEPbCg6gLia_r1TycAPhgSOqyb"></div>
+                <input type="submit" class="button_trnsp" value="Enviar Mensaje">
             </form>
+        <?php else: ?>
+            <p style="color: red; font-weight: bold;">
+                Nuestro formulario de contacto está temporalmente deshabilitado por mantenimiento. Por favor, inténtalo más tarde.
+            </p>
+        <?php endif; ?>
     </section>
 </div>
 <?php include_once __DIR__ . '/footer.php';?>
