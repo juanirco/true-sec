@@ -14,7 +14,7 @@
 
         <?php 
         // Variable para habilitar/deshabilitar el formulario
-        $form_enabled = true; 
+        $form_enabled = false; 
 
         if ($form_enabled): ?>
             <form action="/contacto" class="form" method="POST">
